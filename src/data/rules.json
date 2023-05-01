@@ -1,0 +1,9 @@
+[
+    {
+        "partKey": "GameEngine",
+        "sortId": "DataGame_Rules",
+        "numberMaxPlayer": 8,
+        "numberMinPlayer": 3,
+        "defaultNumberPlayerToStart": 5
+    }
+]

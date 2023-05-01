@@ -1,0 +1,282 @@
+[
+    {
+        "partKey": "GameEngine",
+        "sortId": "DataGame_course_of_play_step0_action1",
+        "function": "WAIT_PLAYERS",
+        "target": "SYSTEM",
+        "nextStep": "1"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "DataGame_course_of_play_step1_action1",
+        "function": "INIT_GAME",
+        "target": "ALL",
+        "duration": 5,
+        "nextStep": "1B"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "DataGame_course_of_play_step1B_action1",
+        "function": "LAUNCH_GAME",
+        "target": "ALL",
+        "nextStep": "2"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "DataGame_course_of_play_step2_action1",
+        "function": "ROLE_ALLOCATION",
+        "target": "ALL",
+        "duration": 7,
+        "nextStep": "3"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "DataGame_course_of_play_step3_action1",
+        "function": "SHOW_WITNESS",
+        "target": "ALL",
+        "duration": 7,
+        "nextStep": "4"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "DataGame_course_of_play_step4_action1",
+        "function": "SHOW_EVIDENCE",
+        "target": "[\"WITNESS\", \"GUILTY\"]",
+        "duration": 10,
+        "nextStep": "7"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "DataGame_course_of_play_step4C_action3",
+        "function": "SHOW_CLUE",
+        "target": "ILLITERATE_INFORMANT",
+        "duration": 10
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "DataGame_course_of_play_step4C_action4",
+        "function": "SHOW_GUILTY",
+        "target": "PARTNER",
+        "duration": 10
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "DataGame_course_of_play_step4C_action5",
+        "function": "SHOW_BANG_WORD",
+        "target": "BOOKMAKER",
+        "duration": 10
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "DataGame_course_of_play_step4C_action6",
+        "function": "SHOW_JOURNALIST_WORD",
+        "target": "JOURNALIST",
+        "duration": 10,
+        "nextStep": "5"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "DataGame_course_of_play_step5_action1",
+        "function": "TARGET_PLAYER_BOOKMAKER",
+        "target": "BOOKMAKER",
+        "duration": 10,
+        "nextStep": "6"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "DataGame_course_of_play_step6_action1",
+        "function": "DESIGN_TARGETS_IF_NOT_EXIST",
+        "target": "BOOKMAKER",
+        "duration": 10
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "DataGame_course_of_play_step6_action2",
+        "function": "SHOW_WORD_FOR_QUESTION",
+        "target": "JOURNALIST"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "DataGame_course_of_play_step6_action3",
+        "function": "SHOW_TARGET_AND_WORD_TO_BOTH_PLAYER",
+        "target": "PLAYER_TARGET_1",
+        "duration": 10
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "DataGame_course_of_play_step6_action4",
+        "function": "SHOW_TARGET_AND_WORD_TO_BOTH_PLAYER",
+        "target": "PLAYER_TARGET_2",
+        "duration": 10
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "DataGame_course_of_play_step6_action5",
+        "function": "STEP6_STOP",
+        "target": "ALL",
+        "nbPlayerForStepEnded": "2+{journalist,bookmaker}Interception{gameinfo.roles)",
+        "nextStep": "7"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "DataGame_course_of_play_step7_action1",
+        "function": "INTERROGATION_PHASE_1",
+        "target": "[\"GUILTY\",\"INSPECTOR\",\"WIDOW\",\"PARTNER\",\"ALIBI\",\"INFORMANT\",\"JOURNALIST\",\"SERGENT\",\"DETECTIVE\",\"CENSORSHIP\",\"BOOKMAKER\",\"MAFIA\"]",
+        "duration": 15,
+        "totalDuration": 120,
+        "nextStep": "9"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "DataGame_course_of_play_step8_action1",
+        "function": "PROPOSE_OPTION_TO_WIDOW",
+        "target": "[\"WIDOW\"]",
+        "duration": 15,
+        "nextStep": "9"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "DataGame_course_of_play_step9_action1",
+        "function": "INTERROGATION_PHASE_2",
+        "target": "[\"GUILTY\",\"INSPECTOR\",\"WIDOW\",\"PARTNER\",\"ALIBI\",\"INFORMANT\",\"JOURNALIST\",\"SERGENT\",\"DETECTIVE\",\"CENSORSHIP\",\"BOOKMAKER\",\"MAFIA\"]",
+        "duration": 120,
+        "nextStep": "10"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "DataGame_course_of_play_step9C_action2",
+        "function": "SHOW_WORD_FOR_QUESTION",
+        "target": "JOURNALIST",
+        "duration": 10
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "DataGame_course_of_play_step10_action1",
+        "function": "VOTE_GUILTY",
+        "target": "ALL",
+        "duration": 30,
+        "nextStep": "11"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "DataGame_course_of_play_step11_action1",
+        "function": "ROLE_PROPOSITION",
+        "target": "[\"INSPECTOR\"]",
+        "duration": 30,
+        "nextStep": "12"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "DataGame_course_of_play_step11B_action2",
+        "function": "PROPOSE_PARTNER",
+        "target": "SERGENT",
+        "duration": 30
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "DataGame_course_of_play_step12_action1",
+        "function": "SHOW_RESULTS",
+        "target": "ALL",
+        "duration": 30,
+        "nextStep": "13"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "DataGame_course_of_play_step13_action1",
+        "function": "LAUNCH_NEXT_LEVEL",
+        "target": "ALL",
+        "duration": 10,
+        "nextStep": "14"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "DataGame_course_of_play_step14_action1",
+        "function": "SHOW_RESULTS_FINAL",
+        "target": "ALL"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "DataGame_course_of_play_step15_action1",
+        "function": "SHOW_PLAYER_EXPERIENCE_POINTS",
+        "target": "SYSTEM",
+        "nextStep": "16"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "DataGame_course_of_play_step16",
+        "function": "STOP_GAME",
+        "target": "SYSTEM",
+        "nbPlayerForStepEnded": "{gameinfo.roles)"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "DataGame_event_bang_detection",
+        "function": "POINTS_ALLOCATION",
+        "target": "TARGET_BOOKMAKER_PLAYER",
+        "duration": 10
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "DataGame_event_bangword_detected",
+        "function": "ACTIVATE_BANG_DETECTION",
+        "target": "TARGET_BOOKMAKER_PLAYERS"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "DataGame_event_censorship_block",
+        "function": "DESIGN_PLAYER_TO_CENSORSHIP",
+        "target": "TARGET_PLAYER",
+        "duration": 10
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "DataGame_event_crime_element_proposition",
+        "function": "PROPOSE_CRIME_ELEMENT",
+        "target": "SYSTEM"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "DataGame_event_detective_answer",
+        "function": "CHECK_YES_ANSWER",
+        "target": "SYSTEM"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "DataGame_event_detective_secret_question",
+        "function": "ASK_SECRET_QUESTION",
+        "target": "WITNESS",
+        "duration": 15
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "DataGame_event_informant_message",
+        "function": "INVERT_MESSAGE",
+        "target": "SYSTEM"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "DataGame_event_journalist_question",
+        "function": "PROVIDE_NEXT_WORD",
+        "target": "JOURNALIST",
+        "duration": 10
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "DataGame_event_journalist_question",
+        "function": "CHECK_WORD_JOURNALIST",
+        "target": "SYSTEM"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "DataGame_event_mafia_ask_clue",
+        "function": "ASK_MAFIA_CLUE",
+        "target": "SYSTEM",
+        "duration": 10
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "DataGame_event_crime_element_found",
+        "function": "CRIME_ELEMENT_FOUND",
+        "target": "SYSTEM"
+    }
+]

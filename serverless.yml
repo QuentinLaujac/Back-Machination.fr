@@ -1,0 +1,325 @@
+service: machination-backend
+
+plugins:
+  - serverless-offline-sqs
+  - serverless-offline
+
+frameworkVersion: ">=1.38.0 <2.0.0"
+
+custom:
+  # This can be changed to the desired origin
+  # When using lambda proxy integration, you have to manually add the CORS headers to responses...
+  # https://github.com/serverless/serverless/issues/4681
+  corsOrigin: "*"
+  user: laujacq
+  dynamodb:
+    start:
+      port: 8700
+      inMemory: true
+      migrate: true
+    migration:
+      dir: offline/migrations
+  serverless-offline-sqs:
+    autoCreate: true # create queue if not exists
+    apiVersion: "2012-11-05"
+    endpoint: http://0.0.0.0:9324
+    region: eu-central-1
+    accessKeyId: root
+    secretAccessKey: root
+    skipCacheInvalidation: false
+  serverless-offline:
+    port: 3700
+
+# This article helped me find out how Serverless handles Cloud Formation naming
+# https://github.com/serverless/serverless/blob/master/docs/providers/aws/guide/resources.md
+provider:
+  name: aws
+  memorySize: 256
+  runtime: nodejs12.x
+  region: eu-central-1
+  # API GW Websocket specific configuration
+  websocketsApiName: ${self:service}-apigw-websocket-${opt:stage, self:provider.stage}
+  # Custom routes are selected by the value of the action property in the body
+  websocketsApiRouteSelectionExpression: $request.body.action
+  # DynamoDB table name, as composed with parameters from this definition file
+  environment:
+    ENVIRONMENT: ${opt:stage, self:provider.stage}
+    COGNITO_USER_POOL:
+      Ref: CognitoUserPool
+    COGNITO_USER_POOL_CLIENT:
+      Ref: CognitoUserPoolClient
+    CORS_ORIGIN: ${self:custom.corsOrigin}
+    DYNAMODB_SORT_STATUS_TYPE_GSI: ${self:service}-sort-status-type-gsi-${opt:stage, self:provider.stage}
+    DYNAMODB_SORT_GAMEID_TYPE_GSI: ${self:service}-sort-gameid-type-gsi-${opt:stage, self:provider.stage}
+    DYNAMODB_SORT_CONNECTION_ID_TYPE_GSI: ${self:service}-sort-connectionid-type-gsi-${opt:stage, self:provider.stage}
+    DYNAMODB_TABLE: ${self:service}-table-${opt:stage, self:provider.stage}
+    SQS_QUEUE_NAME: "${self:service}-queue-${opt:stage, self:provider.stage}.fifo"
+    SQS_MESSAGE_QUEUE_URL:
+      Ref: QueueSQS
+    SQS_API_VERSION: "2012-11-05"
+    DYNAMODB_API_VERSION: "2012-08-10"
+    KEYS_URL:
+      !Join [
+        "",
+        [
+          "https://cognito-idp.",
+          "${opt:region, self:provider.region}",
+          ".amazonaws.com/",
+          !Ref CognitoUserPool,
+          "/.well-known/jwks.json",
+        ],
+      ]
+    WEBSOCKET_API_ENDPOINT:
+      !Join [
+        "",
+        [
+          "https://",
+          !Ref WebsocketsApi,
+          ".execute-api.",
+          "${opt:region, self:provider.region}",
+          ".amazonaws.com/",
+          "${opt:stage, self:provider.stage}/",
+        ],
+      ]
+    # Define the service IAM permissions
+  iamRoleStatements:
+    # Websocket permissions
+    - Effect: Allow
+      Action:
+        - "execute-api:ManageConnections"
+      Resource:
+        - "arn:aws:execute-api:${opt:region, self:provider.region}:*:**/@connections/*"
+    - Effect: Allow
+      Action:
+        - dynamodb:Query
+        - dynamodb:Scan
+        - dynamodb:GetItem
+        - dynamodb:PutItem
+        - dynamodb:UpdateItem
+        - dynamodb:DeleteItem
+      Resource:
+        - "arn:aws:dynamodb:${opt:region, self:provider.region}:*:table/${self:provider.environment.DYNAMODB_TABLE}"
+        - "arn:aws:dynamodb:${opt:region, self:provider.region}:*:table/${self:provider.environment.DYNAMODB_TABLE}/index/${self:provider.environment.DYNAMODB_SORT_STATUS_TYPE_GSI}"
+        - "arn:aws:dynamodb:${opt:region, self:provider.region}:*:table/${self:provider.environment.DYNAMODB_TABLE}/index/${self:provider.environment.DYNAMODB_SORT_GAMEID_TYPE_GSI}"
+        - "arn:aws:dynamodb:${opt:region, self:provider.region}:*:table/${self:provider.environment.DYNAMODB_TABLE}/index/${self:provider.environment.DYNAMODB_SORT_CONNECTION_ID_TYPE_GSI}"
+    # SQS permissions
+    - Effect: Allow
+      Action:
+        - sqs:*
+      Resource:
+        - "arn:aws:sqs:${opt:region, self:provider.region}:*:${self:service}-queue-${opt:stage, self:provider.stage}.fifo"
+
+functions:
+  onSignup:
+    name: LAMBDA_${self:service}_on_signup_${opt:stage, self:provider.stage}
+    handler: handler.onSignup
+    events:
+      - cognitoUserPool:
+          pool: ${self:service}-cognito-${opt:stage, self:provider.stage}
+          trigger: PostConfirmation
+          existing: true
+  createGame:
+    name: LAMBDA_${self:service}_create_game_${opt:stage, self:provider.stage}
+    handler: handler.createGame
+    events:
+      - http:
+          path: game/create
+          method: post
+          cors:
+            origin: ${self:custom.corsOrigin}
+  populateGameEngine:
+    name: LAMBDA_${self:service}_populate_game_engine_${opt:stage, self:provider.stage}
+    handler: handler.populateGameEngine
+    events:
+      - http:
+          path: admin/populateGameEngine
+          method: get
+          cors:
+            origin: ${self:custom.corsOrigin}
+  authWebsocket:
+    name: LAMBDA_${self:service}_auth_websocket_${opt:stage, self:provider.stage}
+    handler: handler.authWebsocket
+    cors:
+      origin: ${self:custom.corsOrigin}
+  defaultSocketHandler:
+    name: LAMBDA_${self:service}_socket_default_${opt:stage, self:provider.stage}
+    handler: handler.defaultSocketHandler
+    events:
+      - websocket:
+          route: $default
+  gameSocketHandler:
+    name: LAMBDA_${self:service}_socket_game_${opt:stage, self:provider.stage}
+    handler: handler.gameSocketHandler
+    events:
+      - websocket:
+          route: GAME
+  handleSocketConnect:
+    name: LAMBDA_${self:service}_socket_connect_${opt:stage, self:provider.stage}
+    handler: handler.handleSocketConnect
+    events:
+      - websocket:
+          route: $connect
+          # references the authWebsocket function below, serverless doesn't provide any other
+          # way to perform this as of 01/07/2019
+          authorizer:
+            name: authWebsocket
+            identitySource:
+              - "route.request.querystring.Authorizer"
+  handleSocketDisconnect:
+    name: LAMBDA_${self:service}_socket_disconnect_${opt:stage, self:provider.stage}
+    handler: handler.handleSocketDisconnect
+    events:
+      - websocket:
+          route: $disconnect
+  refreshToken:
+    name: LAMBDA_${self:service}_auth_refresh_${opt:stage, self:provider.stage}
+    handler: handler.refreshToken
+    events:
+      - http:
+          path: auth/refresh
+          method: post
+          cors:
+            origin: ${self:custom.corsOrigin}
+  signup:
+    name: LAMBDA_${self:service}_signup_${opt:stage, self:provider.stage}
+    handler: handler.signup
+    events:
+      - http:
+          path: auth/signup
+          method: post
+          cors:
+            origin: ${self:custom.corsOrigin}
+  handleMessageQueue:
+    name: LAMBDA_${self:service}_handle_message_queue_${opt:stage, self:provider.stage}
+    handler: handler.handleMessageQueue
+    events:
+      - sqs:
+          arn:
+            Fn::GetAtt:
+              - QueueSQS
+              - Arn
+
+resources:
+  Resources:
+    UserPoolLambdaInvokePermission:
+      Type: AWS::Lambda::Permission
+      DependsOn: OnSignupLambdaFunction
+      Properties:
+        Action: lambda:invokeFunction
+        Principal: cognito-idp.amazonaws.com
+        FunctionName: LAMBDA_${self:service}_on_signup_${opt:stage, self:provider.stage}
+        SourceArn:
+          Fn::Join:
+            [
+              "",
+              [
+                "arn:aws:cognito-idp",
+                ":",
+                Ref: "AWS::Region",
+                ":",
+                Ref: "AWS::AccountId",
+                ":",
+                "userpool/*",
+              ],
+            ]
+    CognitoUserPool:
+      Type: "AWS::Cognito::UserPool"
+      Properties:
+        UserPoolName: ${self:service}-cognito-${opt:stage, self:provider.stage}
+        UsernameAttributes:
+          - email
+        AutoVerifiedAttributes:
+          - email
+        EmailVerificationSubject: "Machination.fr vérification de votre adresse email"
+        EmailVerificationMessage: "Votre code de vérification est : {####}."
+        MfaConfiguration: OFF
+        Policies:
+          PasswordPolicy:
+            MinimumLength: 6
+            RequireLowercase: False
+            RequireNumbers: True
+            RequireSymbols: False
+            RequireUppercase: True
+    CognitoUserPoolClient:
+      Type: "AWS::Cognito::UserPoolClient"
+      Properties:
+        ClientName: ${self:service}-cognito-client-${opt:stage, self:provider.stage}
+        GenerateSecret: False
+        UserPoolId:
+          Ref: CognitoUserPool
+    DynamoDbTable:
+      Type: "AWS::DynamoDB::Table"
+      # For a production deployment, you'd want to retain your DB
+      # in case of re-deployment or stack removal to avoid data loss.
+      # DeletionPolicy: Retain
+      Properties:
+        AttributeDefinitions:
+          - AttributeName: partKey
+            AttributeType: S
+          - AttributeName: sortId
+            AttributeType: S
+          - AttributeName: status
+            AttributeType: S
+          - AttributeName: gameId
+            AttributeType: S
+          - AttributeName: connectionId
+            AttributeType: S
+        KeySchema:
+          - AttributeName: partKey
+            KeyType: HASH
+          - AttributeName: sortId
+            KeyType: RANGE
+        ProvisionedThroughput:
+          ReadCapacityUnits: 1
+          WriteCapacityUnits: 1
+        TableName: ${self:provider.environment.DYNAMODB_TABLE}
+        GlobalSecondaryIndexes:
+          - IndexName: ${self:provider.environment.DYNAMODB_SORT_STATUS_TYPE_GSI}
+            KeySchema:
+              - AttributeName: status
+                KeyType: HASH
+              - AttributeName: sortId
+                KeyType: RANGE
+            Projection:
+              ProjectionType: ALL
+            ProvisionedThroughput:
+              ReadCapacityUnits: 1
+              WriteCapacityUnits: 1
+          - IndexName: ${self:provider.environment.DYNAMODB_SORT_GAMEID_TYPE_GSI}
+            KeySchema:
+              - AttributeName: gameId
+                KeyType: HASH
+              - AttributeName: sortId
+                KeyType: RANGE
+            Projection:
+              ProjectionType: ALL
+            ProvisionedThroughput:
+              ReadCapacityUnits: 1
+              WriteCapacityUnits: 1
+          - IndexName: ${self:provider.environment.DYNAMODB_SORT_CONNECTION_ID_TYPE_GSI}
+            KeySchema:
+              - AttributeName: connectionId
+                KeyType: HASH
+              - AttributeName: sortId
+                KeyType: RANGE
+            Projection:
+              ProjectionType: ALL
+            ProvisionedThroughput:
+              ReadCapacityUnits: 1
+              WriteCapacityUnits: 1
+    QueueSQS:
+      Type: "AWS::SQS::Queue"
+      Properties:
+        QueueName: ${self:provider.environment.SQS_QUEUE_NAME}
+        FifoQueue: true
+  Outputs:
+    CognitoUserPoolId:
+      Value:
+        Ref: CognitoUserPool
+      Export:
+        Name: ASW-CognitoUserPoolId-${self:provider.stage}
+    CognitoUserPoolClientId:
+      Value:
+        Ref: CognitoUserPoolClient
+      Export:
+        Name: ASW-CognitoUserPoolClientId-${self:provider.stage}

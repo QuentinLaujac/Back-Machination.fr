@@ -1,0 +1,27 @@
+{
+  "name": "machination-backend",
+  "version": "1.0.0",
+  "description": "Backend of the machination project",
+  "main": "handler.js",
+  "author": "Quentin Laujac <laujac.quentin@hotmail.fr>",
+  "license": "MIT",
+  "scripts": {
+    "start": "./node_modules/serverless/bin/serverless offline offline start",
+    "debug": "node --inspect-brk=9229 ./node_modules/serverless/bin/serverless offline",
+    "deploy": "./node_modules/serverless/bin/serverless deploy",
+    "remove": "./node_modules/serverless/bin/serverless remove"
+  },
+  "dependencies": {
+    "amazon-cognito-identity-js": "3.0.12",
+    "aws-sdk": "2.670.0",
+    "dynamodb-data-types": "^3.0.1",
+    "node-fetch": "2.6.0",
+    "node-jose": "1.1.3",
+    "short-unique-id": "^2.0.7"
+  },
+  "devDependencies": {
+    "serverless": "1.60.0",
+    "serverless-offline": "^5.12.1",
+    "serverless-offline-sqs": "^3.1.3"
+  }
+}

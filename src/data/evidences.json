@@ -1,0 +1,2256 @@
+[
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon1",
+        "evidence_fr": "Arbalète",
+        "clue_fr": "Arme",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon2",
+        "evidence_fr": "Bayonnette",
+        "clue_fr": "Arme",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon3",
+        "evidence_fr": "Bazooka",
+        "clue_fr": "Arme",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon4",
+        "evidence_fr": "Bombe",
+        "clue_fr": "Arme",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon5",
+        "evidence_fr": "Corde",
+        "clue_fr": "Arme",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon6",
+        "evidence_fr": "Couteau",
+        "clue_fr": "Arme",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon7",
+        "evidence_fr": "Cran d'arrêt",
+        "clue_fr": "Arme",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon8",
+        "evidence_fr": "Epée",
+        "clue_fr": "Arme",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon9",
+        "evidence_fr": "Faux",
+        "clue_fr": "Arme",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon10",
+        "evidence_fr": "Flèche",
+        "clue_fr": "Arme",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon11",
+        "evidence_fr": "Fusil de chasse",
+        "clue_fr": "Arme",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon12",
+        "evidence_fr": "Gourdin",
+        "clue_fr": "Arme",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon13",
+        "evidence_fr": "Grenade",
+        "clue_fr": "Arme",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon14",
+        "evidence_fr": "Hache",
+        "clue_fr": "Arme",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon15",
+        "evidence_fr": "Harpon",
+        "clue_fr": "Arme",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon16",
+        "evidence_fr": "Lance",
+        "clue_fr": "Arme",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon17",
+        "evidence_fr": "Matraque",
+        "clue_fr": "Arme",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon18",
+        "evidence_fr": "Missile",
+        "clue_fr": "Arme",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon19",
+        "evidence_fr": "nunchaku",
+        "clue_fr": "Arme",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon20",
+        "evidence_fr": "Pistolet",
+        "clue_fr": "Arme",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon21",
+        "evidence_fr": "Poignard",
+        "clue_fr": "Arme",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon22",
+        "evidence_fr": "Poing américain",
+        "clue_fr": "Arme",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon23",
+        "evidence_fr": "Poison",
+        "clue_fr": "Arme",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon24",
+        "evidence_fr": "Revolver",
+        "clue_fr": "Arme",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon25",
+        "evidence_fr": "Sabre",
+        "clue_fr": "Arme",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon26",
+        "evidence_fr": "Mains nues",
+        "clue_fr": "Objet",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon27",
+        "evidence_fr": "Barre de fer",
+        "clue_fr": "Objet",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon28",
+        "evidence_fr": "Batte de baseball",
+        "clue_fr": "Objet",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon29",
+        "evidence_fr": "Boule de bowling",
+        "clue_fr": "Objet",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon30",
+        "evidence_fr": "Boule de pétanque",
+        "clue_fr": "Objet",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon31",
+        "evidence_fr": "Bouteille",
+        "clue_fr": "Objet",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon32",
+        "evidence_fr": "Brique",
+        "clue_fr": "Objet",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon33",
+        "evidence_fr": "Brosse à dents",
+        "clue_fr": "Objet",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon34",
+        "evidence_fr": "Cafetière",
+        "clue_fr": "Objet",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon35",
+        "evidence_fr": "Caillou",
+        "clue_fr": "Objet",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon36",
+        "evidence_fr": "Canne",
+        "clue_fr": "Objet",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon37",
+        "evidence_fr": "Casque de moto",
+        "clue_fr": "Objet",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon38",
+        "evidence_fr": "Casserole",
+        "clue_fr": "Objet",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon39",
+        "evidence_fr": "Chandelier",
+        "clue_fr": "Objet",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon40",
+        "evidence_fr": "Chaussures",
+        "clue_fr": "Objet",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon41",
+        "evidence_fr": "Club de golf",
+        "clue_fr": "Objet",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon42",
+        "evidence_fr": "Congélateur",
+        "clue_fr": "Objet",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon43",
+        "evidence_fr": "Crosse de hockey",
+        "clue_fr": "Objet",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon44",
+        "evidence_fr": "Eau",
+        "clue_fr": "Objet",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon45",
+        "evidence_fr": "Echarpe",
+        "clue_fr": "Objet",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon46",
+        "evidence_fr": "Electricité",
+        "clue_fr": "Objet",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon47",
+        "evidence_fr": "Essence",
+        "clue_fr": "Objet",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon48",
+        "evidence_fr": "Extincteur",
+        "clue_fr": "Objet",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon49",
+        "evidence_fr": "Fer à repasser",
+        "clue_fr": "Objet",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon50",
+        "evidence_fr": "Feu",
+        "clue_fr": "Objet",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon51",
+        "evidence_fr": "Feu d'artifice",
+        "clue_fr": "Objet",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon52",
+        "evidence_fr": "Fourchette",
+        "clue_fr": "Objet",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon53",
+        "evidence_fr": "Frigo",
+        "clue_fr": "Objet",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon54",
+        "evidence_fr": "Gaz",
+        "clue_fr": "Objet",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon55",
+        "evidence_fr": "Guitare électrique",
+        "clue_fr": "Objet",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon56",
+        "evidence_fr": "Miroir",
+        "clue_fr": "Objet",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon57",
+        "evidence_fr": "Moto",
+        "clue_fr": "Objet",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon58",
+        "evidence_fr": "Ordinateur",
+        "clue_fr": "Objet",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon59",
+        "evidence_fr": "Pic à glace",
+        "clue_fr": "Objet",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon60",
+        "evidence_fr": "Pieu",
+        "clue_fr": "Objet",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon61",
+        "evidence_fr": "Poêle",
+        "clue_fr": "Objet",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon62",
+        "evidence_fr": "Pot de cornichon",
+        "clue_fr": "Objet",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon63",
+        "evidence_fr": "Pot de fleur",
+        "clue_fr": "Objet",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon64",
+        "evidence_fr": "Presse-papier",
+        "clue_fr": "Objet",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon65",
+        "evidence_fr": "Rame",
+        "clue_fr": "Objet",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon66",
+        "evidence_fr": "Rasoir",
+        "clue_fr": "Objet",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon67",
+        "evidence_fr": "Scalpel",
+        "clue_fr": "Objet",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon68",
+        "evidence_fr": "Sèche cheveux",
+        "clue_fr": "Objet",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon69",
+        "evidence_fr": "Stylo",
+        "clue_fr": "Objet",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon70",
+        "evidence_fr": "Talon aiguille",
+        "clue_fr": "Objet",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon71",
+        "evidence_fr": "Téléphone portable",
+        "clue_fr": "Objet",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon72",
+        "evidence_fr": "Verre",
+        "clue_fr": "Objet",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon73",
+        "evidence_fr": "Voiture",
+        "clue_fr": "Objet",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon74",
+        "evidence_fr": "Agrafeuse",
+        "clue_fr": "Outils",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon75",
+        "evidence_fr": "Ciseau",
+        "clue_fr": "Outils",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon76",
+        "evidence_fr": "Ciseau à bois",
+        "clue_fr": "Outils",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon77",
+        "evidence_fr": "Clé à molette",
+        "clue_fr": "Outils",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon78",
+        "evidence_fr": "Clé plate",
+        "clue_fr": "Outils",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon79",
+        "evidence_fr": "Clous",
+        "clue_fr": "Outils",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon80",
+        "evidence_fr": "Cutter",
+        "clue_fr": "Outils",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon81",
+        "evidence_fr": "Marteau",
+        "clue_fr": "Outils",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon82",
+        "evidence_fr": "Pelle",
+        "clue_fr": "Outils",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon83",
+        "evidence_fr": "Perceuse",
+        "clue_fr": "Outils",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon84",
+        "evidence_fr": "Pied de biche",
+        "clue_fr": "Outils",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon85",
+        "evidence_fr": "Pince",
+        "clue_fr": "Outils",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon86",
+        "evidence_fr": "Pioche",
+        "clue_fr": "Outils",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon87",
+        "evidence_fr": "Pistolet à clous",
+        "clue_fr": "Outils",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon88",
+        "evidence_fr": "Pistolet à colle",
+        "clue_fr": "Outils",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon89",
+        "evidence_fr": "Poele",
+        "clue_fr": "Outils",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon90",
+        "evidence_fr": "Ponceuse",
+        "clue_fr": "Outils",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon91",
+        "evidence_fr": "Scie",
+        "clue_fr": "Outils",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon92",
+        "evidence_fr": "Scie circulaire",
+        "clue_fr": "Outils",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon93",
+        "evidence_fr": "Taille haies",
+        "clue_fr": "Outils",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon94",
+        "evidence_fr": "Tondeuse",
+        "clue_fr": "Outils",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon95",
+        "evidence_fr": "Tournevis",
+        "clue_fr": "Outils",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon96",
+        "evidence_fr": "Tronçonneuse",
+        "clue_fr": "Outils",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon97",
+        "evidence_fr": "Vis",
+        "clue_fr": "Outils",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon98",
+        "evidence_fr": "Visseuse",
+        "clue_fr": "Outils",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon99",
+        "evidence_fr": "Eau de javel",
+        "clue_fr": "Chimie",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon100",
+        "evidence_fr": "Acide",
+        "clue_fr": "Chimie",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon101",
+        "evidence_fr": "Alcool",
+        "clue_fr": "Chimie",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon102",
+        "evidence_fr": "Bactérie",
+        "clue_fr": "Chimie",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon103",
+        "evidence_fr": "Drogue",
+        "clue_fr": "Chimie",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon104",
+        "evidence_fr": "Matière radioactive",
+        "clue_fr": "Chimie",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_weapon105",
+        "evidence_fr": "Virus",
+        "clue_fr": "Chimie",
+        "type": "weapon"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location1",
+        "evidence_fr": "Aéroport",
+        "clue_fr": "Lieu public",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location2",
+        "evidence_fr": "Appartement",
+        "clue_fr": "Lieu de vie",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location3",
+        "evidence_fr": "Aréna",
+        "clue_fr": "Lieu public",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location4",
+        "evidence_fr": "Ascenseur",
+        "clue_fr": "Transport",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location5",
+        "evidence_fr": "Autobus",
+        "clue_fr": "Transport",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location6",
+        "evidence_fr": "Automobile",
+        "clue_fr": "Transport",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location7",
+        "evidence_fr": "Autoroute",
+        "clue_fr": "Transport",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location8",
+        "evidence_fr": "Avion",
+        "clue_fr": "Transport",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location9",
+        "evidence_fr": "Banque",
+        "clue_fr": "Lieu public",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location10",
+        "evidence_fr": "Bar",
+        "clue_fr": "Lieu public",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location11",
+        "evidence_fr": "Bateau",
+        "clue_fr": "Transport",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location12",
+        "evidence_fr": "Bibliothèque",
+        "clue_fr": "Culture",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location13",
+        "evidence_fr": "Bijouterie",
+        "clue_fr": "Magasin",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location14",
+        "evidence_fr": "Boucherie",
+        "clue_fr": "Magasin",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location15",
+        "evidence_fr": "Boulangerie",
+        "clue_fr": "Magasin",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location16",
+        "evidence_fr": "Bowling",
+        "clue_fr": "Divertissement",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location17",
+        "evidence_fr": "Bureau",
+        "clue_fr": "Lieu de vie",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location18",
+        "evidence_fr": "Cabanon de jardin",
+        "clue_fr": "Maison",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location19",
+        "evidence_fr": "Cabinet de médecin",
+        "clue_fr": "Lieu public",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location20",
+        "evidence_fr": "Cage d'escalier",
+        "clue_fr": "Pièce de vie",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location21",
+        "evidence_fr": "Camping",
+        "clue_fr": "Tourisme",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location22",
+        "evidence_fr": "Canal",
+        "clue_fr": "Eau",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location23",
+        "evidence_fr": "Caserne de pompier",
+        "clue_fr": "Eau",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location24",
+        "evidence_fr": "Casse automobile",
+        "clue_fr": "Magasin",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location25",
+        "evidence_fr": "Cathédrale",
+        "clue_fr": "Batiment",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location26",
+        "evidence_fr": "Cave",
+        "clue_fr": "Maison",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location27",
+        "evidence_fr": "Centre commercial",
+        "clue_fr": "Magasin",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location28",
+        "evidence_fr": "Chalet",
+        "clue_fr": "Vacances",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location29",
+        "evidence_fr": "Chambre à coucher",
+        "clue_fr": "Maison",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location30",
+        "evidence_fr": "Champ",
+        "clue_fr": "Verdure",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location31",
+        "evidence_fr": "Charcuterie",
+        "clue_fr": "Magasin",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location32",
+        "evidence_fr": "Château",
+        "clue_fr": "Batiment",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location33",
+        "evidence_fr": "Chemin de fer",
+        "clue_fr": "Transport",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location34",
+        "evidence_fr": "Cimetière",
+        "clue_fr": "Peuplé",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location35",
+        "evidence_fr": "Cinéma",
+        "clue_fr": "Lieu public",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location36",
+        "evidence_fr": "Clinique",
+        "clue_fr": "Lieu public",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location37",
+        "evidence_fr": "Club hippique",
+        "clue_fr": "Sport",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location38",
+        "evidence_fr": "Collège",
+        "clue_fr": "Enfance",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location39",
+        "evidence_fr": "Commissariat",
+        "clue_fr": "Bleu",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location40",
+        "evidence_fr": "Cuisine",
+        "clue_fr": "Maison",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location41",
+        "evidence_fr": "Désert",
+        "clue_fr": "Nature",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location42",
+        "evidence_fr": "Dojo",
+        "clue_fr": "Sport",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location43",
+        "evidence_fr": "Dressing",
+        "clue_fr": "Maison",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location44",
+        "evidence_fr": "École",
+        "clue_fr": "Enfance",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location45",
+        "evidence_fr": "Église",
+        "clue_fr": "Culture",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location46",
+        "evidence_fr": "Épicerie",
+        "clue_fr": "Magasin",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location47",
+        "evidence_fr": "Ferme",
+        "clue_fr": "Nature",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location48",
+        "evidence_fr": "Fleuriste",
+        "clue_fr": "Magasin",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location49",
+        "evidence_fr": "Forêt",
+        "clue_fr": "Nature",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location50",
+        "evidence_fr": "Fosse septique",
+        "clue_fr": "Tuyau",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location51",
+        "evidence_fr": "Galerie d'art",
+        "clue_fr": "Culture",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location52",
+        "evidence_fr": "Garage",
+        "clue_fr": "Maison",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location53",
+        "evidence_fr": "Garderie",
+        "clue_fr": "Enfance",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location54",
+        "evidence_fr": "Gare",
+        "clue_fr": "Transport",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location55",
+        "evidence_fr": "Grenier",
+        "clue_fr": "Maison",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location56",
+        "evidence_fr": "Grotte",
+        "clue_fr": "Nature",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location57",
+        "evidence_fr": "Gymnase",
+        "clue_fr": "Sport",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location58",
+        "evidence_fr": "Hôpital",
+        "clue_fr": "Lieu public",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location59",
+        "evidence_fr": "Hôtel",
+        "clue_fr": "Confort",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location60",
+        "evidence_fr": "Hôtel de ville",
+        "clue_fr": "En ville",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location61",
+        "evidence_fr": "Impasse",
+        "clue_fr": "En ville",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location62",
+        "evidence_fr": "Jacuzzi",
+        "clue_fr": "Divertissement",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location63",
+        "evidence_fr": "Jardin",
+        "clue_fr": "Maison",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location64",
+        "evidence_fr": "Jardin Public",
+        "clue_fr": "En ville",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location65",
+        "evidence_fr": "Librairie",
+        "clue_fr": "Culture",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location66",
+        "evidence_fr": "Lycée",
+        "clue_fr": "Enfance",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location67",
+        "evidence_fr": "Mairie",
+        "clue_fr": "En ville",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location68",
+        "evidence_fr": "Maison de retraite",
+        "clue_fr": "Cycle",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location69",
+        "evidence_fr": "Manoir",
+        "clue_fr": "Maison",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location70",
+        "evidence_fr": "Médiathèque",
+        "clue_fr": "Culture",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location71",
+        "evidence_fr": "Métro",
+        "clue_fr": "Transport",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location72",
+        "evidence_fr": "Morgue",
+        "clue_fr": "Cycle",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location73",
+        "evidence_fr": "Musée",
+        "clue_fr": "Culture",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location74",
+        "evidence_fr": "Musée d'art moderne",
+        "clue_fr": "Culture",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location75",
+        "evidence_fr": "Musée d'histoires naturelles",
+        "clue_fr": "Culture",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location76",
+        "evidence_fr": "Office De Tourisme",
+        "clue_fr": "Culture",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location77",
+        "evidence_fr": "Papèterie",
+        "clue_fr": "Magasin",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location78",
+        "evidence_fr": "Parc",
+        "clue_fr": "Verdure",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location79",
+        "evidence_fr": "Parc d’attraction",
+        "clue_fr": "Divertissement",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location80",
+        "evidence_fr": "Parking",
+        "clue_fr": "En ville",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location81",
+        "evidence_fr": "Parlement",
+        "clue_fr": "Loi",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location82",
+        "evidence_fr": "Passage piéton",
+        "clue_fr": "En ville",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location83",
+        "evidence_fr": "Pâtisserie",
+        "clue_fr": "Magasin",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location84",
+        "evidence_fr": "Pharmacie",
+        "clue_fr": "Magasin",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location85",
+        "evidence_fr": "Piscine",
+        "clue_fr": "Divertissement",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location86",
+        "evidence_fr": "Plage",
+        "clue_fr": "Vacances",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location87",
+        "evidence_fr": "Poissonnerie",
+        "clue_fr": "Magasin",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location88",
+        "evidence_fr": "Port",
+        "clue_fr": "Transport",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location89",
+        "evidence_fr": "Poste",
+        "clue_fr": "Transport",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location90",
+        "evidence_fr": "Prison",
+        "clue_fr": "Mur",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location91",
+        "evidence_fr": "Restaurant",
+        "clue_fr": "Divertissement",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location92",
+        "evidence_fr": "Ruelle",
+        "clue_fr": "En ville",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location93",
+        "evidence_fr": "Salle d’attente",
+        "clue_fr": "Long",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location94",
+        "evidence_fr": "Salle de bain",
+        "clue_fr": "Maison",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location95",
+        "evidence_fr": "Salle de jeux",
+        "clue_fr": "Divertissement",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location96",
+        "evidence_fr": "Salle de spectacle",
+        "clue_fr": "Divertissement",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location97",
+        "evidence_fr": "Salle de sport",
+        "clue_fr": "Sport",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location98",
+        "evidence_fr": "Salon",
+        "clue_fr": "Maison",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location99",
+        "evidence_fr": "Salon de beauté",
+        "clue_fr": "Magasin",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location100",
+        "evidence_fr": "Salon de coiffure",
+        "clue_fr": "Magasin",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location101",
+        "evidence_fr": "Sauna",
+        "clue_fr": "Divertissement",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location102",
+        "evidence_fr": "Spa",
+        "clue_fr": "Divertissement",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location103",
+        "evidence_fr": "Square",
+        "clue_fr": "Verdure",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location104",
+        "evidence_fr": "Stade",
+        "clue_fr": "Sport",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location105",
+        "evidence_fr": "Supermarché",
+        "clue_fr": "Magasin",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location106",
+        "evidence_fr": "Terrasse",
+        "clue_fr": "Maison",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location107",
+        "evidence_fr": "Terrasse d'un café",
+        "clue_fr": "Magasin",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location108",
+        "evidence_fr": "Théâtre",
+        "clue_fr": "Culture",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location109",
+        "evidence_fr": "Toilette",
+        "clue_fr": "Maison",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location110",
+        "evidence_fr": "Toilette publique",
+        "clue_fr": "En ville",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location111",
+        "evidence_fr": "Toit",
+        "clue_fr": "Maison",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location112",
+        "evidence_fr": "Trottoir",
+        "clue_fr": "En ville",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location113",
+        "evidence_fr": "Université",
+        "clue_fr": "Enfance",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location114",
+        "evidence_fr": "Usine",
+        "clue_fr": "Fumée",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_location115",
+        "evidence_fr": "Véranda",
+        "clue_fr": "Maison",
+        "type": "location"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive1",
+        "evidence_fr": "Accident de voiture",
+        "clue_fr": "Chance",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive2",
+        "evidence_fr": "Corruption",
+        "clue_fr": "Ambition",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive3",
+        "evidence_fr": "Divorce demandé",
+        "clue_fr": "Amour",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive4",
+        "evidence_fr": "Divorce difficile",
+        "clue_fr": "Amour",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive5",
+        "evidence_fr": "Infidélité",
+        "clue_fr": "Amour",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive6",
+        "evidence_fr": "Par amour, on lui a demandé",
+        "clue_fr": "Amour",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive7",
+        "evidence_fr": "Voler la femme d'un autre",
+        "clue_fr": "Amour",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive8",
+        "evidence_fr": "Héritage",
+        "clue_fr": "Argent",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive9",
+        "evidence_fr": "Arnaque à l'assurance",
+        "clue_fr": "Arnaque",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive10",
+        "evidence_fr": "Blanchiment d’argent",
+        "clue_fr": "Arnaque",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive11",
+        "evidence_fr": "Combat de boxe truqué",
+        "clue_fr": "Arnaque",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive12",
+        "evidence_fr": "Détournement De Fonds",
+        "clue_fr": "Arnaque",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive13",
+        "evidence_fr": "Escroquerie",
+        "clue_fr": "Arnaque",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive14",
+        "evidence_fr": "Match de basket truqué",
+        "clue_fr": "Arnaque",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive15",
+        "evidence_fr": "Match de foot truqué",
+        "clue_fr": "Arnaque",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive16",
+        "evidence_fr": "Piratage informatique",
+        "clue_fr": "Arnaque",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive17",
+        "evidence_fr": "Chantage",
+        "clue_fr": "Chantage",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive18",
+        "evidence_fr": "Cacher un autre crime",
+        "clue_fr": "Crime",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive19",
+        "evidence_fr": "Dettes de jeu",
+        "clue_fr": "Dettes",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive20",
+        "evidence_fr": "Coup de colère",
+        "clue_fr": "Emotion",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive21",
+        "evidence_fr": "Déception",
+        "clue_fr": "Emotion",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive22",
+        "evidence_fr": "Jalousie",
+        "clue_fr": "Emotion",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive23",
+        "evidence_fr": "Passion",
+        "clue_fr": "Emotion",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive24",
+        "evidence_fr": "Espionnage industriel",
+        "clue_fr": "Financier",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive25",
+        "evidence_fr": "Evasion fiscale",
+        "clue_fr": "Financier",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive26",
+        "evidence_fr": "Extorsion",
+        "clue_fr": "Financier",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive27",
+        "evidence_fr": "Faux-billet",
+        "clue_fr": "Financier",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive28",
+        "evidence_fr": "Crime d'état",
+        "clue_fr": "Politique",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive29",
+        "evidence_fr": "Espionnage",
+        "clue_fr": "Politique",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive30",
+        "evidence_fr": "Génocide",
+        "clue_fr": "Politique",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive31",
+        "evidence_fr": "Guerre",
+        "clue_fr": "Politique",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive32",
+        "evidence_fr": "Opposant de campagne politique",
+        "clue_fr": "Politique",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive33",
+        "evidence_fr": "Sauver des otages",
+        "clue_fr": "Politique",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive34",
+        "evidence_fr": "Ambition personnelle",
+        "clue_fr": "Pouvoir",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive35",
+        "evidence_fr": "Ambition professionnelle",
+        "clue_fr": "Pouvoir",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive36",
+        "evidence_fr": "Diffamation",
+        "clue_fr": "Pouvoir",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive37",
+        "evidence_fr": "Burn-out",
+        "clue_fr": "Professionnel",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive38",
+        "evidence_fr": "Auto-défense",
+        "clue_fr": "Protection",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive39",
+        "evidence_fr": "Protéger une autre personne",
+        "clue_fr": "Protection",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive40",
+        "evidence_fr": "Se faire connaître (attirer l'attention)",
+        "clue_fr": "Reconnaissance",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive41",
+        "evidence_fr": "Réligion",
+        "clue_fr": "Religion",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive42",
+        "evidence_fr": "Cannibalisme",
+        "clue_fr": "Santé mentale",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive43",
+        "evidence_fr": "Dépression",
+        "clue_fr": "Santé mentale",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive44",
+        "evidence_fr": "Curiosité",
+        "clue_fr": "Santé mentale",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive45",
+        "evidence_fr": "Folie",
+        "clue_fr": "Santé mentale",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive46",
+        "evidence_fr": "Par plaisir",
+        "clue_fr": "Santé mentale",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive47",
+        "evidence_fr": "Paranoïa",
+        "clue_fr": "Santé mentale",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive48",
+        "evidence_fr": "Pulsion meutrière",
+        "clue_fr": "Santé mentale",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive49",
+        "evidence_fr": "Satanisme",
+        "clue_fr": "Santé mentale",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive50",
+        "evidence_fr": "Suicide collectif",
+        "clue_fr": "Santé mentale",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive51",
+        "evidence_fr": "Besoin de corps morts",
+        "clue_fr": "Science",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive52",
+        "evidence_fr": "Secte",
+        "clue_fr": "Secte",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive53",
+        "evidence_fr": "Harcèlement Sexuel",
+        "clue_fr": "Sexe",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive54",
+        "evidence_fr": "Prostitution",
+        "clue_fr": "Sexe",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive55",
+        "evidence_fr": "Proxénétisme",
+        "clue_fr": "Sexe",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive56",
+        "evidence_fr": "Contrebande",
+        "clue_fr": "Trafic",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive57",
+        "evidence_fr": "Trafic d'animaux",
+        "clue_fr": "Trafic",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive58",
+        "evidence_fr": "Trafic d'armes",
+        "clue_fr": "Trafic",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive59",
+        "evidence_fr": "Trafic d'enfants",
+        "clue_fr": "Trafic",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive60",
+        "evidence_fr": "Trafic d'héroïne",
+        "clue_fr": "Trafic",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive61",
+        "evidence_fr": "Trafic d'oeuvre d'arts",
+        "clue_fr": "Trafic",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive62",
+        "evidence_fr": "Trafic d'organes",
+        "clue_fr": "Trafic",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive63",
+        "evidence_fr": "Trafic de cadavres",
+        "clue_fr": "Trafic",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive64",
+        "evidence_fr": "Trafic de cocaïne",
+        "clue_fr": "Trafic",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive65",
+        "evidence_fr": "Trafic de contrefaçons",
+        "clue_fr": "Trafic",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive66",
+        "evidence_fr": "Trafic de données",
+        "clue_fr": "Trafic",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive67",
+        "evidence_fr": "Trafic de femmes",
+        "clue_fr": "Trafic",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive68",
+        "evidence_fr": "Trafic de médicaments",
+        "clue_fr": "Trafic",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive69",
+        "evidence_fr": "Trafic de meubles anciens",
+        "clue_fr": "Trafic",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive70",
+        "evidence_fr": "Faire accuser quelqu'un d'autre",
+        "clue_fr": "Vengeance",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive71",
+        "evidence_fr": "Victime avait tué sa fille",
+        "clue_fr": "Vengeance",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive72",
+        "evidence_fr": "Victime avait tué sa mère",
+        "clue_fr": "Vengeance",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive73",
+        "evidence_fr": "Victime avait tué sa soeur",
+        "clue_fr": "Vengeance",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive74",
+        "evidence_fr": "Victime avait tué son fils",
+        "clue_fr": "Vengeance",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive75",
+        "evidence_fr": "Victime avait tué son père",
+        "clue_fr": "Vengeance",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive76",
+        "evidence_fr": "Violence conjugale",
+        "clue_fr": "Vengeance",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive77",
+        "evidence_fr": "Discrimination",
+        "clue_fr": "Violence",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive78",
+        "evidence_fr": "Enfant violent",
+        "clue_fr": "Violence",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive79",
+        "evidence_fr": "Evasion de prison",
+        "clue_fr": "Violence",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive80",
+        "evidence_fr": "Frère violent",
+        "clue_fr": "Violence",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive81",
+        "evidence_fr": "Guerre de gang",
+        "clue_fr": "Violence",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive82",
+        "evidence_fr": "Harcèlement psychologique",
+        "clue_fr": "Violence",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive83",
+        "evidence_fr": "Insultes",
+        "clue_fr": "Violence",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive84",
+        "evidence_fr": "Mère violente",
+        "clue_fr": "Violence",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive85",
+        "evidence_fr": "Paroles déplacées",
+        "clue_fr": "Violence",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive86",
+        "evidence_fr": "Père violent",
+        "clue_fr": "Violence",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive87",
+        "evidence_fr": "Prise d'otage",
+        "clue_fr": "Violence",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive88",
+        "evidence_fr": "Querelle de voisinage",
+        "clue_fr": "Violence",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive89",
+        "evidence_fr": "Racisme",
+        "clue_fr": "Violence",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive90",
+        "evidence_fr": "Soeur violente",
+        "clue_fr": "Violence",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive91",
+        "evidence_fr": "Terrorisme",
+        "clue_fr": "Violence",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive92",
+        "evidence_fr": "Braquage",
+        "clue_fr": "Vol",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive93",
+        "evidence_fr": "Cambriolage",
+        "clue_fr": "Vol",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive94",
+        "evidence_fr": "Car Jacking",
+        "clue_fr": "Vol",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive95",
+        "evidence_fr": "Hold-up",
+        "clue_fr": "Vol",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive96",
+        "evidence_fr": "Racket",
+        "clue_fr": "Vol",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive97",
+        "evidence_fr": "Vol d'argent",
+        "clue_fr": "Vol",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive98",
+        "evidence_fr": "Vol de bijoux",
+        "clue_fr": "Vol",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive99",
+        "evidence_fr": "Vol de données",
+        "clue_fr": "Vol",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive100",
+        "evidence_fr": "Vol de produits high-tech",
+        "clue_fr": "Vol",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive101",
+        "evidence_fr": "Vol de secrets",
+        "clue_fr": "Vol",
+        "type": "motive"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "Data_evidence_motive102",
+        "evidence_fr": "Vol de voitures",
+        "clue_fr": "Vol",
+        "type": "motive"
+    }
+]

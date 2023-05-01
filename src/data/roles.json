@@ -1,0 +1,67 @@
+[
+    {
+        "partKey": "GameEngine",
+        "sortId": "DataGame_Role_Free_Mandatory_1",
+        "role": "GUILTY"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "DataGame_Role_Free_Mandatory_2",
+        "role": "INSPECTOR"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "DataGame_Role_Free_Mandatory_3",
+        "role": "WITNESS"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "DataGame_Role_Free_1",
+        "role": "WIDOW"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "DataGame_Role_Free_2",
+        "role": "PARTNER"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "DataGame_Role_Free_3",
+        "role": "ALIBI"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "DataGame_Role_Free_4",
+        "role": "INFORMANT"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "DataGame_Role_Free_5",
+        "role": "JOURNALIST"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "DataGame_Role_Free_6",
+        "role": "SERGENT"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "DataGame_Role_Free_7",
+        "role": "DETECTIVE"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "DataGame_Role_Premium_1",
+        "role": "CENSORSHIP"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "DataGame_Role_Premium_2",
+        "role": "BOOKMAKER"
+    },
+    {
+        "partKey": "GameEngine",
+        "sortId": "DataGame_Role_Premium_3",
+        "role": "MAFIA"
+    }
+]
