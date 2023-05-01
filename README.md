@@ -1,5 +1,6 @@
 # Machination backend
 
+Machination is a web application that allows users to play the Machination board game online.
 This project is developed using Node.js.
 
 ## Architecture
